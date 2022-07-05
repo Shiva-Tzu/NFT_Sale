@@ -10,7 +10,7 @@ time to figure that out or just hold tight for me to upload a mintind dApp withi
 On line 133 of App.js in the src folder, replace contractmint with publicMint
 This will call the public mint function in this smart contract.
 
-You will also need to replace the abi.json file in /publib/config/
+You will also need to replace the abi.json file in /public/config/
 To do this, compile the NFT.sol contract on remix and there will be an option to copy the abi. Once done, replace all the code in the abi.json file with the new abi.
 
 Hashlips has a great ReadMe file in their repo so be sure to check that out for the rest of the info on how to get the thing to work.
