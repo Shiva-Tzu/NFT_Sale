@@ -1,0 +1,2 @@
+# ScalableNFTSaleContract
+This is a functioning and scalable NFT token contract. It comes with whitelist and public sale features. I intend to upload a minting dApp that functions with this contract so that you have everything you need to launch your collection, no matter how big. If you appreciate it, a starving programmer always appreciates contributions, here is my wallet address 0xBe1B4F4820F0925dAFB88cCa9398472e50c3cc2A
