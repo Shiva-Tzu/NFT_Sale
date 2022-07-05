@@ -13,4 +13,6 @@ This will call the public mint function in this smart contract.
 You will also need to replace the abi.json file in /publib/config/
 To do this, compile the NFT.sol contract on remix and there will be an option to copy the abi. Once done, replace all the code in the abi.json file with the new abi.
 
+Hashlips has a great ReadMe file in their repo so be sure to check that out for the rest of the info on how to get the thing to work.
+
 If you appreciate this work and would like to send me some ETH, a starving programmer could always use contributions, here is my wallet address 0xBe1B4F4820F0925dAFB88cCa9398472e50c3cc2A
