@@ -124,6 +124,11 @@ contract MyToken is ERC721, ERC721Enumerable, Ownable, ReentrancyGuard {
         royalties = _royalties;
     }
 
+    // This allows the contract owner to reset the merkleroot. It is important to have this in case you forget to add someone to the whitelist
+    function setRoot(bytes32 _root) public onlyOwner {
+        root = _root;
+    }
+    
     // This is the function that allows you to set whether or not the public sale is active
     function setPublicActive(bool _publicIsActive) public onlyOwner {
         publicIsActive = _publicIsActive;
