@@ -1,4 +1,7 @@
 # ScalableNFTSaleContract
+
+Contract has not been audited. Use at your own risk.
+
 This is a functioning and scalable NFT token contract. It comes with whitelist and public sale features.
 
 I intend to upload a minting dApp that functions with this contract so that you have everything you need to launch your collection, no matter how big. 
