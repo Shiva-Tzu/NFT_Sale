@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
-// Replace MyToken with the name of your NFT
+// You can replace MyToken with the name of your NFT
 
 contract MyToken is ERC721, ERC721Enumerable, Ownable, ReentrancyGuard {
     using Strings for uint256;
